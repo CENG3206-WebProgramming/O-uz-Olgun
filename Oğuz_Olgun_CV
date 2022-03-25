@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+
+<div class="grid-container">
+  <div class="grid-item1">
+    <h1> KİŞİSEL BİLGİLER</h1>
+<p>Adı Soyadı : Oğuz Olgun</p>
+<p>Doğum Yeri : Konya</p>
+<p>Doğum Tarihi : 19.06.2000</p>
+<p>Cinsiyeti : Erkek</p>
+<p>Cep Telefonu : 0553 286 50 54</p>
+ <p>E-mail Adresi : tiredcavalry@gmail.com</p>
+  </div>
+  <div class="grid-item2">
+    <img src="ben.jpg">
+  
+  </div>
+  <div class="grid-item3">
+    <h1>HAKKIMDA</h1>
+    <p>21 yaşındayım Konya/Merkez doğumluyum Konya’da ikamet etmekteyim. </p>
+  </div>  
+  <div class="grid-item4">
+  <h1>EĞİTİM BİLGİLERİ</h1>
+    <p>08/06/2018  &emsp;&emsp;&emsp;         Konya Anadolu Lisesi mezun oldu</p>
+    <p>04/09/2018  &emsp;&emsp;&emsp;         Konya Gıda ve Tarım Üniversitesi Mühendislik ve Mimarlık Fakültesi Bilgisayar Mühendisliği bölümündelisans eğitimimi sürdürmekteyim.</p>
+  </div>
+  <div class="grid-item5">
+  
+   <h1>YABANCI DİL BİLGİLERİ </h1>
+    <p>İngilizce &emsp;&emsp; B2 seviye </p>
+  </div>
+ 
+  <div class="grid-item6">
+   <h1>İŞ TECRÜBESİ</h1>
+  <p> 2020-2021&emsp;&emsp;&emsp; 2020-2021 yılları arasında Konya Anadolu Birlik Holdingte 
+Bilişim İşleri bölümünde 45 iş günü staj.
+<br><br>Süre: 45 gün </p>
+  </div> 
+
+  <div class="grid-item7">
+  
+   <h1>SEMİNER VER KURSLAR </h1>
+    <p>11/05/2019 &emsp;&emsp;&emsp; Ardunio Programlama Geliştirme ve Uyum Eğitimi
+ </p>
+  </div>
+ 
+  </div>
+
+</body>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+//CSS PART OF THE CODE
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,200px) ;
+  grid-template-row: repeat(auto-fill,200px);
+  background-color: #f2f2f2;
+  padding: 10px;
+
+ 
+}
+.grid-item1 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+   
+  
+}
+.grid-item2 {
+ 
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+   grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.grid-item3 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+   grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+   
+}
+
+.grid-item4 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  
+  
+}
+.grid-item5 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+   
+}
+.grid-item6 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size:  15px;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  
+}
+.grid-item7 {
+  background-color: #ddb0b0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size:  15px;
+  text-align: left;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  
+}
