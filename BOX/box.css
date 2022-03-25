@@ -1,0 +1,22 @@
+.outer-box{
+
+ padding:100px;
+ background-color:green;
+  width:400px;
+  height:400px;
+  
+}
+
+
+.inner-box{
+  
+  
+  width:200px;
+  height:200px;
+  border-color:black;
+   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-height:50px;
+  border-width:50px;
+  background-color:pink;
+  
+}
