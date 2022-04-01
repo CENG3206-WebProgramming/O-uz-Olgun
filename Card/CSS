@@ -1,0 +1,15 @@
+.container{
+  
+  display:flex;
+  border-wide:500px;
+  border-height:200px;
+  border-style:solid ;
+  border-color:#698733;
+  border-width:0.5em;
+  border-radius:1em;
+  justify-content: space-evenly;
+  centered:vertical;
+  height:140px;
+  wide:350px;
+  
+}
